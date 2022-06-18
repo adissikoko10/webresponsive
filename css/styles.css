@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #459cac;
+}
+
+.navbar ul{  
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type:none;
+  background-color: #459cac;
+}
+
+.navbar ul li a {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: white;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+}
+
+.navbar ul li a:hover {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10%;
+  background-color: #ddd;
+}
+
+.navbar ul li a img {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 20px;
+}
+
+/* main */
+main img {
+  width: 30px;
+}
+
+aside img {
+  width: 70%;
+}
+
+
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 100px;
+  background-color: #8dada7;
+}
+
+#article{
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 100px;
+  background-color: #8dada7;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;    
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  flex-basis: 30%;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+  background-color: #3b6159;
+  padding: 20px 20px 20px 20px;
+}
+
+.flex-item-left {
+  padding: 10px;
+  flex: 70%;
+}
+
+.flex-item-right {
+  padding: 10px;
+  flex: 30%;
+}
+
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #459cac;
+}
+
+
